@@ -15,7 +15,7 @@
 #%# family=manual
 #%# capabilities=autoconf
 
-PHP_BIN=${phpbin-"php5-fpm"}
+PHP_BIN=${phpbin-"php-fpm"}
 
 if [ "$1" = "autoconf" ]; then
 echo yes
